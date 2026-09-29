@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #111;
+}
+
+#simulation {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Control panel */
+
+#controls {
+    position: fixed;
+
+    bottom: 20px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background: rgba(30, 30, 30, 0.9);
+
+    padding: 15px 20px;
+
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    color: white;
+
+    font-family: Arial, sans-serif;
+}
+
+.project-title {
+    position: fixed;
+    top: 24px;
+    left: 28px;
+
+    color: #ffffffca;
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 1.6px;
+
+    z-index: 10;
+    pointer-events: none;
+}
+
+.control-group {
+    text-align: center;
+}
+
+.control-group h3 {
+    margin: 0 0 8px 0;
+    font-size: 14px;
+}
+
+button {
+    padding: 8px 12px;
+
+    margin: 2px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #444;
+    color: white;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #666;
+}
+
+#reset {
+    background: #8b3030;
+}
+
+#reset:hover {
+    background: #b33b3b;
+}

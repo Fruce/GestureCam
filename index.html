@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GestureCam 3D Simulation</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="simulation"></div>
+
+    <!-- Controls -->
+    <div id="controls">
+
+        <div class="control-group">
+            <h3>Pitch</h3>
+
+            <button id="pitchDown">−10°</button>
+            <button id="pitchReset">0°</button>
+            <button id="pitchUp">+10°</button>
+        </div>
+
+    </div>
+
+    <div class="project-title">
+        <div>GESTURE CAM</div>
+        <div>SIMULATION</div>
+    </div>
+
+    <!-- Three.js -->
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js"
+        }
+    }
+    </script>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+
+</html>
